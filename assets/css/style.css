@@ -8,6 +8,7 @@ body {
 .mathology {
     overflow: hidden;
     background-color: greenyellow;
+    width: 100%;
 }
 
 .mathology h1 {
@@ -44,6 +45,7 @@ body {
 .place {
     display: grid;
     grid-template-columns: 82% 18%;
+
 }
 
 .logic {
@@ -65,14 +67,22 @@ body {
 
 .pick {
     font-size: 67px;
-    margin-right: 10px;
 
+    float: right;
+    cursor: hand;
+    color: whitesmoke;
+    border-radius: 3px;
+
+    text-align: 100px;
+    width: 10%;
 }
+
+
 
 .pick h1 {
     cursor: hand;
     color: whitesmoke;
-    border-radius: 3px;
+    border-radius: 7px;
     margin-top: 10px;
     text-align: 100px;
     width: 100%;
@@ -101,7 +111,7 @@ body {
     color: green;
 }
 
-.rights {
+.pick {
     background-color: greenyellow;
 
 
@@ -113,19 +123,19 @@ body {
 /* Add these styles to your CSS file */
 #score-container,
 #timer-container {
-    font-size: 67px;
-    margin-right: 10px;
+    font-size: 60px;
+
 }
 
 #current-score {
     font-weight: bold;
-    font-size: 67px;
-    margin-right: 10px;
+    font-size: 60px;
+
 }
 
 #timer {
     font-weight: bold;
     color: red;
-    font-size: 67px;
-    margin-right: 10px;
+    font-size: 60px;
+
 }

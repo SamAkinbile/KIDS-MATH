@@ -42,29 +42,29 @@
         <h1 id="fig3">3</h1>
         <h1 id="fig4">=</h1>
         <h1 id="fig5">?</h1>
-      </div>
-      <div class="pick">
-        <div class="rights">
-          <h1 id="right1">1</h1>
+
+        <div id="score-container">
+          <p>Score: <span id="current-score">0</span></p>
         </div>
-        <div class="rights">
-          <h1 id="right2">2</h1>
+        <div id="timer-container">
+          <p>Time Left: <span id="timer">100</span> seconds</p>
         </div>
-        <div class="rights">
-          <h1 id="right3">3</h1>
-        </div>
+        <audio id="myAudio" src="wrong.mp3"></audio>
       </div>
     </div>
 
-    <!-- Add these elements to your HTML file -->
-<div id="score-container">
-    <p>Score: <span id="current-score">0</span></p>
-</div>
-<div id="timer-container">
-    <p>Time Left: <span id="timer">30</span> seconds</p>
-</div>
-<audio id="myAudio" src="wrong.mp3"></audio>
-</div>
+    <div class="pick">
+      <div class="right">
+        <h1 id="right1">1</h1>
+      </div>
+      <div class="rights">
+        <h1 id="right2">2</h1>
+      </div>
+      <div class="rights">
+        <h1 id="right3">3</h1>
+      </div>
+    </div>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>

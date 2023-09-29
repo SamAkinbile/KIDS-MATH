@@ -8,7 +8,7 @@ let timerDisplay = document.getElementById("timer");
 
 let answer = 0;
 let score = 0;
-let timeLeft = 30;
+let timeLeft = 100;
 let timer;
 
 function generate_logic() {
@@ -49,7 +49,7 @@ function updateTimer() {
 
 function startGame() {
     score = 0;
-    timeLeft = 30;
+    timeLeft = 100;
     generate_logic();
     updateScore();
     updateTimer();
