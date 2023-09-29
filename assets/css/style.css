@@ -1,14 +1,19 @@
-#MyGame {
-    color: gold;
-    margin: 0;
-    padding: 0;
-    float: right;
-    display: inline;
-
-
-
+#fig1 {
+    color: #FE4A49;
 }
 
-.highlight {
+#fig2 {
+    color: blue;
+}
+
+#fig3 {
+    color: gold;
+}
+
+#fig4 {
+    color: pink;
+}
+
+#fig5 {
     color: green;
 }
