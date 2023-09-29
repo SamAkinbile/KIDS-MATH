@@ -1,3 +1,35 @@
+body {
+
+    font-family: 'Luckiest Guy';
+    background-color: whitesmoke;
+
+}
+
+.mathology {
+    overflow: hidden;
+    background-color: greenyellow;
+}
+
+.mathology h2 {
+    float: left;
+    margin-left: 10%;
+    color: black;
+    margin-top: 10px;
+}
+
+.mathology ul {
+    list-style-type: none;
+    margin-left: 0%;
+    float: left;
+
+}
+
+.mathology li {
+    float: left;
+
+    padding: 0 20px 0 20px;
+}
+
 #fig1 {
     color: #FE4A49;
 }
