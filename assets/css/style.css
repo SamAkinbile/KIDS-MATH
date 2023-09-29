@@ -55,6 +55,7 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    padding-left: 10px;
 }
 
 .logic h1 {
@@ -100,15 +101,8 @@ body {
     color: green;
 }
 
-.rghts {
+.rights {
     background-color: greenyellow;
-    transition: 1s;
 
-}
 
-#right1,
-#right2,
-#right3 {
-    background-color: greenyellow;
-    transition: 1s;
 }
