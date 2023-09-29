@@ -6,10 +6,24 @@ var answer = 0;
 
 function generate_logic() {
     var fig1 = Math.floor(Math.random() * 13);
-    var fig2 = Math.floor(Math.random() * 13);
+    var fig3 = Math.floor(Math.random() * 13);
     var fakeAnswe1 = Math.floor(Math.random() * 13);
-    var fakeAnswer2 = Math.floor(Math.random() * 13);
-    var allAnswer;
+    var fakeAnswer3 = Math.floor(Math.random() * 13);
+    var allAnswer = [];
+    var switchAnswers = [];
+
+
+    answer = fig1 + fig3;
+
+    document.getElementById("fig1").innerHTML = fig1;
+    document.getElementById("fig3").innerHTML = fig3;
+
+    allAnswers = [answer, fakeAnswer1, fakeAnswer3];
+
+    right1.innerHTML = answer;
+    right2.innerHTML = fakeAnswer1;
+    right3.innerHTML = fakeAnswer3;
+
 }
 
 right1.addEventListener("click", function () {
@@ -38,3 +52,5 @@ right3.addEventListener("click", function () {
         audio.play();
     }
 });
+
+generate_logic();
