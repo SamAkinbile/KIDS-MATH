@@ -1,8 +1,15 @@
+// script.js
 let right1 = document.getElementById("right1");
 let right2 = document.getElementById("right2");
 let right3 = document.getElementById("right3");
 let audio = document.getElementById("myAudio");
+let currentScore = document.getElementById("current-score");
+let timerDisplay = document.getElementById("timer");
+
 let answer = 0;
+let score = 0;
+let timeLeft = 30;
+let timer;
 
 function generate_logic() {
     let fig1 = Math.floor(Math.random() * 13);
@@ -12,17 +19,16 @@ function generate_logic() {
 
     answer = fig1 + fig3;
 
-    document.getElementById("fig1").innerHTML = fig1;
-    document.getElementById("fig3").innerHTML = fig3;
+    document.getElementById("fig1").textContent = fig1;
+    document.getElementById("fig3").textContent = fig3;
 
     let allAnswers = [answer, dummyAnswer1, dummyAnswer2];
 
-    // Shuffle the answer choices
-    let switchAnswers = shuffleArray(allAnswers);
+    allAnswers = shuffleArray(allAnswers);
 
-    right1.innerHTML = switchAnswers[0];
-    right2.innerHTML = switchAnswers[1];
-    right3.innerHTML = switchAnswers[2];
+    right1.textContent = allAnswers[0];
+    right2.textContent = allAnswers[1];
+    right3.textContent = allAnswers[2];
 }
 
 function shuffleArray(array) {
@@ -33,8 +39,37 @@ function shuffleArray(array) {
     return array;
 }
 
+function updateScore() {
+    currentScore.textContent = score;
+}
+
+function updateTimer() {
+    timerDisplay.textContent = timeLeft;
+}
+
+function startGame() {
+    score = 0;
+    timeLeft = 30;
+    generate_logic();
+    updateScore();
+    updateTimer();
+
+    clearInterval(timer);
+    timer = setInterval(function () {
+        timeLeft--;
+        updateTimer();
+
+        if (timeLeft === 0) {
+            clearInterval(timer);
+            alert("Game over! Your score: " + score);
+        }
+    }, 1000);
+}
+
 right1.addEventListener("click", function () {
-    if (right1.innerHTML == answer) {
+    if (right1.textContent == answer) {
+        score++;
+        updateScore();
         generate_logic();
     } else {
         audio.play();
@@ -42,7 +77,9 @@ right1.addEventListener("click", function () {
 });
 
 right2.addEventListener("click", function () {
-    if (right2.innerHTML == answer) {
+    if (right2.textContent == answer) {
+        score++;
+        updateScore();
         generate_logic();
     } else {
         audio.play();
@@ -50,11 +87,13 @@ right2.addEventListener("click", function () {
 });
 
 right3.addEventListener("click", function () {
-    if (right3.innerHTML == answer) {
+    if (right3.textContent == answer) {
+        score++;
+        updateScore();
         generate_logic();
     } else {
         audio.play();
     }
 });
 
-generate_logic();
+startGame();

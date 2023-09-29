@@ -106,3 +106,26 @@ body {
 
 
 }
+
+
+
+
+/* Add these styles to your CSS file */
+#score-container,
+#timer-container {
+    font-size: 67px;
+    margin-right: 10px;
+}
+
+#current-score {
+    font-weight: bold;
+    font-size: 67px;
+    margin-right: 10px;
+}
+
+#timer {
+    font-weight: bold;
+    color: red;
+    font-size: 67px;
+    margin-right: 10px;
+}
