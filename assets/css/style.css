@@ -10,7 +10,7 @@ body {
     background-color: greenyellow;
 }
 
-.mathology h2 {
+.mathology h1 {
     float: left;
     margin-left: 10%;
     color: black;
@@ -19,16 +19,56 @@ body {
 
 .mathology ul {
     list-style-type: none;
-    margin-left: 0%;
-    float: left;
+    font-size: 20px;
+    margin-left: 60%;
 
 }
 
 .mathology li {
     float: left;
-
+    margin-top: 10px;
     padding: 0 20px 0 20px;
 }
+
+.mathology a {
+    text-decoration: none;
+    color: black;
+}
+
+.current a::after {
+    background-color: white;
+    font-size: 4px;
+    display: block;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: 82% 18%;
+}
+
+.logic {
+    font-size: 65px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logic h1 {
+    padding: 20px;
+    display: inline;
+}
+
+.pick {
+    font-size: 67px;
+    margin-right: 10px;
+
+}
+
+
 
 #fig1 {
     color: #FE4A49;
