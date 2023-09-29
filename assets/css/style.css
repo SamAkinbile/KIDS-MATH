@@ -68,6 +68,16 @@ body {
 
 }
 
+.pick h1 {
+    cursor: hand;
+    color: whitesmoke;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: 100px;
+    width: 100%;
+}
+
+
 
 
 #fig1 {
@@ -83,13 +93,22 @@ body {
 }
 
 #fig4 {
-    color: pink;
+    color: black;
 }
 
 #fig5 {
     color: green;
 }
 
-.rights {
+.rghts {
     background-color: greenyellow;
+    transition: 1s;
+
+}
+
+#right1,
+#right2,
+#right3 {
+    background-color: greenyellow;
+    transition: 1s;
 }
