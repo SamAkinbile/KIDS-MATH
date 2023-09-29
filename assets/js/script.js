@@ -8,7 +8,7 @@ function generate_logic() {
     var fig1 = Math.floor(Math.random() * 13);
     var fig3 = Math.floor(Math.random() * 13);
     var fakeAnswe1 = Math.floor(Math.random() * 13);
-    var fakeAnswer3 = Math.floor(Math.random() * 13);
+    var fakeAnswer2 = Math.floor(Math.random() * 13);
     var allAnswer = [];
     var switchAnswers = [];
 
@@ -20,9 +20,13 @@ function generate_logic() {
 
     allAnswers = [answer, fakeAnswer1, fakeAnswer3];
 
-    right1.innerHTML = answer;
-    right2.innerHTML = fakeAnswer1;
-    right3.innerHTML = fakeAnswer3;
+    for (i = allAnswers.length; i--;) {
+        switchAnswers.push(allAnswers.splice(Math.floor(Math.random() * (i + 1)), 1)[0]);
+    }
+
+    right1.innerHTML = switchAnswer[0];
+    right2.innerHTML = switchAnswer[1];
+    right3.innerHTML = switchAnswer[3];
 
 }
 
