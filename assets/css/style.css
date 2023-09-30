@@ -72,6 +72,7 @@ body {
 .pick {
     font-size: 67px;
     margin-right: 10px;
+    display: grid;
 }
 
 
@@ -82,47 +83,44 @@ body {
     border-radius: 7px;
     margin-top: 10px;
     text-align: center;
-    width: 15%;
+
     display: grid;
 
 
 }
 
 #right1 {
-    background-color: #FE4A49;
+    background-color: goldenrod;
     transition: 1s;
-    float: right;
-    height: 50%;
+
 
 }
 
 #right1:hover {
-    color: aliceblue;
+    color: blue;
 }
 
 #right2 {
-    background-color: #FE4A49;
+    background-color: goldenrod;
     transition: 1s;
-    float: right;
-    height: 50%;
+
 
 }
 
 #right2:hover {
-    color: aliceblue;
+    color: blue;
 }
 
 #right3 {
-    background-color: #FE4A49;
+    background-color: goldenrod;
     transition: 1s;
-    float: right;
-    height: 50%;
+
 
 
 }
 
 #right3:hover {
-    color: aliceblue;
+    color: blue;
 }
 
 
@@ -148,17 +146,15 @@ body {
 
 
 
-
-
-
-/* Add these styles to your CSS file */
 #score-container,
 #timer-container {
+    margin-top: 5%;
     font-size: 60px;
 
 }
 
 #current-score {
+
     font-weight: bold;
     font-size: 60px;
 
@@ -168,5 +164,79 @@ body {
     font-weight: bold;
     color: red;
     font-size: 60px;
+
+}
+
+/* Styles for screens with a maximum width of 768px (commonly used for mobile devices) */
+@media screen and (max-width: 768px) {
+    .mathology h1 {
+        margin-left: 5%;
+        /* Adjust margin for smaller screens */
+    }
+
+    .mathology ul {
+        font-size: 16px;
+        /* Decrease font size for smaller screens */
+        margin-left: 10%;
+        /* Adjust margin for smaller screens */
+    }
+
+    .place {
+        grid-template-columns: 1fr;
+        /* Change to a single column layout for smaller screens */
+    }
+
+    .logic {
+        font-size: 45px;
+        /* Decrease font size for smaller screens */
+        padding: 15% 0;
+        margin: 10px;
+    }
+
+    #score-container,
+    #timer-container {
+        font-size: 40px;
+        /* Decrease font size for smaller screens */
+    }
+}
+
+
+@media(max-width:768px) {
+    .nav h1 {
+        font-size: 1.5rem;
+        float: none;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav li {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+}
+
+@media(max-width:480px) {
+    .nav h1 {
+        float: none;
+        text-align: center;
+    }
+
+    .logic h1 {
+        display: inline;
+        padding: 10px;
+    }
+
+    nav li {
+        font-size: .8rem;
+    }
 
 }
