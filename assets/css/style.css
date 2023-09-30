@@ -34,7 +34,13 @@ body {
 
 .mathology a {
     text-decoration: none;
+    color: white;
 
 }
 
-.mathology::after {}
+.mathology a::after {
+    content: ;
+    background-color: red;
+    font-size: 4px;
+    display: block;
+}
