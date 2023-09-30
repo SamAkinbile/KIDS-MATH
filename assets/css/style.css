@@ -39,7 +39,6 @@ body {
 }
 
 .mathology a::after {
-    content: ;
     background-color: red;
     font-size: 4px;
     display: block;
@@ -48,7 +47,7 @@ body {
 
 .place {
     display: grid;
-    grid-template-columns: 82% 18%;
+    grid-template-columns: 1fr 20%;
 
 }
 
@@ -73,9 +72,6 @@ body {
 .pick {
     font-size: 67px;
     margin-right: 10px;
-    border-radius: 7px;
-
-
 }
 
 
@@ -87,6 +83,7 @@ body {
     margin-top: 10px;
     text-align: center;
     width: 15%;
+    display: grid;
 
 
 }
