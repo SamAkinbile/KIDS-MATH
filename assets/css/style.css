@@ -167,43 +167,14 @@ body {
 
 }
 
-/* Styles for screens with a maximum width of 768px (commonly used for mobile devices) */
-@media screen and (max-width: 768px) {
-    .mathology h1 {
-        margin-left: 5%;
-        /* Adjust margin for smaller screens */
-    }
 
-    .mathology ul {
-        font-size: 16px;
-        /* Decrease font size for smaller screens */
-        margin-left: 10%;
-        /* Adjust margin for smaller screens */
-    }
 
-    .place {
-        grid-template-columns: 1fr;
-        /* Change to a single column layout for smaller screens */
-    }
 
-    .logic {
-        font-size: 45px;
-        /* Decrease font size for smaller screens */
-        padding: 15% 0;
-        margin: 10px;
-    }
-
-    #score-container,
-    #timer-container {
-        font-size: 40px;
-        /* Decrease font size for smaller screens */
-    }
-}
 
 
 @media(max-width:768px) {
     .nav h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         float: none;
         text-align: center;
     }
@@ -216,13 +187,52 @@ body {
 
     nav li {
         font-size: 1rem;
-        text-align: center;
-    }
-
-    nav ul {
-        text-align: center;
     }
 }
+
+
+
+
+/* Styles for screens with a maximum width of 768px (commonly used for mobile devices) */
+@media screen and (max-width: 768px) {
+    .mathology h1 {
+        margin-left: 5%;
+
+    }
+
+    .mathology ul {
+        font-size: 16px;
+        margin-left: 10%;
+        display: inline;
+    }
+
+
+    .place {
+        grid-template-columns: 1fr;
+
+    }
+
+    .logic {
+        font-size: 30px;
+        /* Decrease font size for smaller screens */
+        padding: 15% 0;
+        margin: 10px;
+    }
+
+    .pick {
+        font-size: 35px;
+    }
+
+    #score-container,
+    #timer-container {
+        font-size: 20px;
+
+    }
+}
+
+
+
+
 
 @media(max-width:480px) {
     .nav h1 {
@@ -236,7 +246,9 @@ body {
     }
 
     nav li {
-        font-size: .8rem;
-    }
+        font-size: 1rem;
+        padding: 0 20px 0 20px;
 
+
+    }
 }
