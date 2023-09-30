@@ -9,7 +9,7 @@ body {
 }
 
 .mathology {
-    padding: 60px;
+    padding: 50px;
     background-color: goldenrod;
 
 }
@@ -43,4 +43,133 @@ body {
     background-color: red;
     font-size: 4px;
     display: block;
+}
+
+
+.place {
+    display: grid;
+    grid-template-columns: 82% 18%;
+
+}
+
+.logic {
+    font-size: 65px;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.logic h1 {
+    padding: 20px;
+    display: inline;
+
+}
+
+.pick {
+    font-size: 67px;
+    margin-right: 10px;
+    border-radius: 7px;
+
+
+}
+
+
+
+.pick h1 {
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 7px;
+    margin-top: 10px;
+    text-align: center;
+    width: 15%;
+
+
+}
+
+#right1 {
+    background-color: #FE4A49;
+    transition: 1s;
+    float: right;
+    height: 50%;
+
+}
+
+#right1:hover {
+    color: aliceblue;
+}
+
+#right2 {
+    background-color: #FE4A49;
+    transition: 1s;
+    float: right;
+    height: 50%;
+
+}
+
+#right2:hover {
+    color: aliceblue;
+}
+
+#right3 {
+    background-color: #FE4A49;
+    transition: 1s;
+    float: right;
+    height: 50%;
+
+
+}
+
+#right3:hover {
+    color: aliceblue;
+}
+
+
+#fig1 {
+    color: #FE4A49;
+}
+
+#fig2 {
+    color: blue;
+}
+
+#fig3 {
+    color: gold;
+}
+
+#fig4 {
+    color: black;
+}
+
+#fig5 {
+    color: green;
+}
+
+
+
+
+
+
+/* Add these styles to your CSS file */
+#score-container,
+#timer-container {
+    font-size: 60px;
+
+}
+
+#current-score {
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+#timer {
+    font-weight: bold;
+    color: red;
+    font-size: 60px;
+
 }
