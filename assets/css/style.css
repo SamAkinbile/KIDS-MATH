@@ -1,141 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-
-    font-family: 'Luckiest Guy';
-    background-color: whitesmoke;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
 }
 
 .mathology {
-    overflow: hidden;
-    background-color: greenyellow;
-    width: 100%;
+    padding: 60px;
+    background-color: goldenrod;
+
 }
 
 .mathology h1 {
     float: left;
     margin-left: 10%;
-    color: black;
-    margin-top: 10px;
+
 }
 
 .mathology ul {
-    list-style-type: none;
     font-size: 20px;
     margin-left: 60%;
-
+    list-style-type: none;
 }
 
 .mathology li {
-    float: left;
     margin-top: 10px;
+    float: left;
     padding: 0 20px 0 20px;
 }
 
 .mathology a {
     text-decoration: none;
-    color: black;
-}
-
-.current a::after {
-    background-color: white;
-    font-size: 4px;
-    display: block;
-}
-
-.place {
-    display: grid;
-    grid-template-columns: 82% 18%;
 
 }
 
-.logic {
-    font-size: 65px;
-    background-color: white;
-    border-radius: 3px;
-    text-align: center;
-    padding-top: 15%;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-}
-
-.logic h1 {
-    padding: 20px;
-    display: inline;
-}
-
-.pick {
-    font-size: 67px;
-
-    float: right;
-    cursor: hand;
-    color: whitesmoke;
-    border-radius: 3px;
-
-    text-align: 100px;
-    width: 10%;
-}
-
-
-
-.pick h1 {
-    cursor: hand;
-    color: whitesmoke;
-    border-radius: 7px;
-    margin-top: 10px;
-    text-align: 100px;
-    width: 100%;
-}
-
-
-
-
-#fig1 {
-    color: #FE4A49;
-}
-
-#fig2 {
-    color: blue;
-}
-
-#fig3 {
-    color: gold;
-}
-
-#fig4 {
-    color: black;
-}
-
-#fig5 {
-    color: green;
-}
-
-.pick {
-    background-color: greenyellow;
-
-
-}
-
-
-
-
-/* Add these styles to your CSS file */
-#score-container,
-#timer-container {
-    font-size: 60px;
-
-}
-
-#current-score {
-    font-weight: bold;
-    font-size: 60px;
-
-}
-
-#timer {
-    font-weight: bold;
-    color: red;
-    font-size: 60px;
-
-}
+.mathology::after {}
