@@ -1,4 +1,4 @@
-// script.js
+// script.js //
 let right1 = document.getElementById("right1");
 let right2 = document.getElementById("right2");
 let right3 = document.getElementById("right3");
