@@ -13,9 +13,13 @@ function generate_logic() {
 
     document.getElementById("fig1").innerHTML = fig1;
     document.getElementById("fig3").innerHTML = fig3;
-    document.getElementById("operation").innerHTML = "x";
+    //   document.getElementById("operation").innerHTML = "x";
 
-    let allAnswers = [answer, Math.floor(Math.random() * 169), Math.floor(Math.random() * 169)];
+    let allAnswers = [
+        answer,
+        Math.floor(Math.random() * 169),
+        Math.floor(Math.random() * 169),
+    ];
 
     // Shuffle the answer choices
     let switchAnswers = shuffleArray(allAnswers);
@@ -35,7 +39,7 @@ function shuffleArray(array) {
 
 function updateScore() {
     score++;
-    document.getElementById("score").innerHTML = score;
+    document.getElementById("current-score").innerHTML = score;
 }
 
 function updateTime() {
