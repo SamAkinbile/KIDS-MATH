@@ -4,7 +4,7 @@ let right3 = document.getElementById("right3");
 let audio = document.getElementById("myAudio");
 let answer = 0;
 let score = 0;
-let timeLeft = 10;
+let timeLeft = 100;
 
 function generate_logic() {
     let fig1 = Math.floor(Math.random() * 13);
