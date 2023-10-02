@@ -55,7 +55,7 @@ function updateTime() {
 
 generate_logic();
 
-let timerId = setInterval(updateTime, 1000);
+let timerId = setInterval(updateTime, 100);
 
 right1.addEventListener("click", function () {
     if (right1.innerHTML == answer) {
