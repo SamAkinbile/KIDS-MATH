@@ -10,13 +10,13 @@ function generate_logic() {
     let dummyAnswer1 = Math.floor(Math.random() * 13);
     let dummyAnswer2 = Math.floor(Math.random() * 13);
 
-    answer = fig1 + fig3;
+    answer = fig1 - fig3;
 
     document.getElementById("fig1").innerHTML = fig1;
     document.getElementById("fig3").innerHTML = fig3;
 
     let allAnswers = [answer, dummyAnswer1, dummyAnswer2];
-    
+
     // Shuffle the answer choices
     let switchAnswers = shuffleArray(allAnswers);
 

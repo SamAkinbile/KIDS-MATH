@@ -15,23 +15,24 @@
       href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="substraction.html" />
-    <title>KIDS MATH</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>KIDSMATH</title>
   </head>
 
   <body>
     <header>
       <div class="mathology">
-        <div class="nation">
-          <h2>
-            KIDS MATH
-          </h2>
+        <div class="nav">
+          <h1>KIDS MATH</h1>
           <nav>
             <ul>
-             <a href="index.html">Addition</a></li>
-            <li class="current"><a href="substraction.html">Subtraction</a></li>
+              <li>
+                <a href="index.html">Addition</a>
+              </li>
+              <li class="square">
+                <a href="substraction.html">Subtraction</a>
+              </li>
               <li><a href="multiplication.html">multiplication</a></li>
-              
             </ul>
           </nav>
         </div>
@@ -39,14 +40,26 @@
     </header>
     <div class="place">
       <div class="logic">
-        <h1 id="fig1">1</h1>
-        <h1 id="fig2">+</h1>
+        <h1 id="fig1"></h1>
+        <h1 id="fig2">-</h1>
         <h1 id="fig3">3</h1>
         <h1 id="fig4">=</h1>
         <h1 id="fig5">?</h1>
+
+        <div id="score-container">
+          <p>Score: <span id="current-score">0</span></p>
+        </div>
+        <div id="timer-container">
+          <p>Time Left: <span id="timer">100</span> seconds</p>
+        </div>
+        <audio
+          id="myAudio"
+          src="assets/images or media/mixkit-wrong-answer-fail-notification-946.wav"
+        ></audio>
       </div>
+
       <div class="pick">
-        <div class="rights">
+        <div class="right">
           <h1 id="right1">1</h1>
         </div>
         <div class="rights">

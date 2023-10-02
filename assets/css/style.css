@@ -38,11 +38,16 @@ body {
 
 }
 
-.mathology a::after {
-    background-color: red;
-    font-size: 4px;
-    display: block;
+.square a {
+
+
+    color: black;
+
+    text-decoration: underline;
+
 }
+
+
 
 
 .place {
