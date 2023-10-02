@@ -39,10 +39,7 @@ body {
 }
 
 .square a {
-
-
     color: black;
-
     text-decoration: underline;
 
 }
@@ -184,6 +181,11 @@ body {
         text-align: center;
     }
 
+    .place {
+        grid-template-columns: 1fr;
+
+    }
+
     nav {
         float: none;
         display: flex;
@@ -254,6 +256,9 @@ body {
         font-size: 1rem;
         padding: 0 20px 0 20px;
 
+        .place {
+            grid-template-columns: 1fr;
 
+        }
     }
 }
