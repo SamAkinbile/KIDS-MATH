@@ -1,28 +1,30 @@
-let right1 = document.getElementById("right1");
-let right2 = document.getElementById("right2");
-let right3 = document.getElementById("right3");
-let audio = document.getElementById("myAudio");
-let answer = 0;
-let score = 0;
-let timeLeft = 100;
+/* eslint-env es6 */
+
+var right1 = document.getElementById("right1");
+var right2 = document.getElementById("right2");
+var right3 = document.getElementById("right3");
+var audio = document.getElementById("myAudio");
+var answer = 0;
+var score = 0;
+var timeLeft = 100;
+var timerId;
 
 function generate_logic() {
-    let fig1 = Math.floor(Math.random() * 13);
-    let fig3 = Math.floor(Math.random() * 13);
+    var fig1 = Math.floor(Math.random() * 13);
+    var fig3 = Math.floor(Math.random() * 13);
     answer = fig1 * fig3;
 
     document.getElementById("fig1").innerHTML = fig1;
     document.getElementById("fig3").innerHTML = fig3;
-    //   document.getElementById("operation").innerHTML = "x";
 
-    let allAnswers = [
+    var allAnswers = [
         answer,
         Math.floor(Math.random() * 169),
         Math.floor(Math.random() * 169),
     ];
 
     // Shuffle the answer choices
-    let switchAnswers = shuffleArray(allAnswers);
+    var switchAnswers = shuffleArray(allAnswers);
 
     right1.innerHTML = switchAnswers[0];
     right2.innerHTML = switchAnswers[1];
@@ -30,9 +32,11 @@ function generate_logic() {
 }
 
 function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
     }
     return array;
 }
@@ -48,14 +52,14 @@ function updateTime() {
 
     if (timeLeft === 0) {
         clearInterval(timerId);
-        alert(`Time's up! Your final score is ${score}.`);
+        alert("Time's up! Your final score is " + score + ".");
         location.reload();
     }
 }
 
 generate_logic();
 
-let timerId = setInterval(updateTime, 100);
+timerId = setInterval(updateTime, 100);
 
 right1.addEventListener("click", function () {
     if (right1.innerHTML == answer) {
