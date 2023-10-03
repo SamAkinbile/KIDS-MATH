@@ -159,6 +159,7 @@ body {
 
     nav li {
         font-size: 1rem;
+
     }
 }
 
@@ -171,7 +172,7 @@ body {
     .mathology ul {
         font-size: 16px;
         margin-left: 10%;
-        display: inline;
+        display: flex;
     }
 
     .place {
@@ -210,6 +211,7 @@ body {
     nav li {
         font-size: 1rem;
         padding: 0 20px 0 20px;
+        display: flex;
     }
 
     .place {
