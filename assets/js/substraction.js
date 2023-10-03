@@ -47,7 +47,7 @@ function generate_logic() {
     right3.textContent = allAnswers[2];
 }
 
-// ... (rest of the code remains the same)
+
 
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {

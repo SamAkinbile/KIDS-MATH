@@ -1,22 +1,24 @@
-let right1 = document.getElementById("right1");
-let right2 = document.getElementById("right2");
-let right3 = document.getElementById("right3");
-let audio = document.getElementById("myAudio");
-let currentScore = document.getElementById("current-score");
-let timerDisplay = document.getElementById("timer");
+/* eslint-env es6 */
 
-let answer = 0;
-let score = 0;
-let timeLeft = 100;
-let timer;
+var right1 = document.getElementById("right1");
+var right2 = document.getElementById("right2");
+var right3 = document.getElementById("right3");
+var audio = document.getElementById("myAudio");
+var currentScore = document.getElementById("current-score");
+var timerDisplay = document.getElementById("timer");
+
+var answer = 0;
+var score = 0;
+var timeLeft = 100;
+var timer;
 
 function generate_logic() {
-    let fig1 = Math.floor(Math.random() * 13);
-    let fig3 = Math.floor(Math.random() * 13);
+    var fig1 = Math.floor(Math.random() * 13);
+    var fig3 = Math.floor(Math.random() * 13);
 
     // Ensure that fig1 is greater than or equal to fig3 to avoid negative results
     if (fig1 < fig3) {
-        let temp = fig1;
+        var temp = fig1;
         fig1 = fig3;
         fig3 = temp;
     }
@@ -26,17 +28,17 @@ function generate_logic() {
     document.getElementById("fig1").textContent = fig1;
     document.getElementById("fig3").textContent = fig3;
 
-    let dummyAnswer1, dummyAnswer2;
+    var dummyAnswer1, dummyAnswer2;
 
     do {
         dummyAnswer1 = Math.floor(Math.random() * 13);
-    } while (dummyAnswer1 === answer || dummyAnswer1 === fig1 + fig3);
+    } while (dummyAnswer1 === answer || dummyAnswer1 === fig1 - fig3);
 
     do {
         dummyAnswer2 = Math.floor(Math.random() * 13);
-    } while (dummyAnswer2 === answer || dummyAnswer2 === fig1 - fig3 || dummyAnswer2 === dummyAnswer1);
+    } while (dummyAnswer2 === answer || dummyAnswer2 === fig1 + fig3 || dummyAnswer2 === dummyAnswer1);
 
-    let allAnswers = [answer, dummyAnswer1, dummyAnswer2];
+    var allAnswers = [answer, dummyAnswer1, dummyAnswer2];
 
     allAnswers = shuffleArray(allAnswers);
 
@@ -46,6 +48,9 @@ function generate_logic() {
 }
 
 // ... (rest of the code remains the same)
+
+
+
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {

@@ -11,13 +11,11 @@ body {
 .mathology {
     padding: 50px;
     background-color: goldenrod;
-
 }
 
 .mathology h1 {
     float: left;
     margin-left: 10%;
-
 }
 
 .mathology ul {
@@ -35,22 +33,16 @@ body {
 .mathology a {
     text-decoration: none;
     color: white;
-
 }
 
 .square a {
     color: black;
     text-decoration: underline;
-
 }
-
-
-
 
 .place {
     display: grid;
     grid-template-columns: 1fr 20%;
-
 }
 
 .logic {
@@ -62,13 +54,11 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 .logic h1 {
     padding: 20px;
     display: inline;
-
 }
 
 .pick {
@@ -77,25 +67,18 @@ body {
     display: grid;
 }
 
-
-
 .pick h1 {
     cursor: pointer;
     color: whitesmoke;
     border-radius: 7px;
     margin-top: 10px;
     text-align: center;
-
     display: grid;
-
-
 }
 
 #right1 {
     background-color: goldenrod;
     transition: 1s;
-
-
 }
 
 #right1:hover {
@@ -105,8 +88,6 @@ body {
 #right2 {
     background-color: goldenrod;
     transition: 1s;
-
-
 }
 
 #right2:hover {
@@ -116,15 +97,11 @@ body {
 #right3 {
     background-color: goldenrod;
     transition: 1s;
-
-
-
 }
 
 #right3:hover {
     color: blue;
 }
-
 
 #fig1 {
     color: #FE4A49;
@@ -146,35 +123,24 @@ body {
     color: green;
 }
 
-
-
 #score-container,
 #timer-container {
     margin-top: 5%;
     font-size: 60px;
-
+    font-weight: bold;
 }
 
 #current-score {
-
-    font-weight: bold;
     font-size: 60px;
-
 }
 
 #timer {
-    font-weight: bold;
     color: red;
     font-size: 60px;
-
+    font-weight: bold;
 }
 
-
-
-
-
-
-@media(max-width:1160px) {
+@media (max-width: 1160px) {
     .nav h1 {
         font-size: 1.6rem;
         float: none;
@@ -183,7 +149,6 @@ body {
 
     .place {
         grid-template-columns: 1fr;
-
     }
 
     nav {
@@ -197,14 +162,10 @@ body {
     }
 }
 
-
-
-
 /* Styles for screens with a maximum width of 768px (commonly used for mobile devices) */
 @media screen and (max-width: 768px) {
     .mathology h1 {
         margin-left: 5%;
-
     }
 
     .mathology ul {
@@ -213,10 +174,8 @@ body {
         display: inline;
     }
 
-
     .place {
         grid-template-columns: 1fr;
-
     }
 
     .logic {
@@ -233,15 +192,11 @@ body {
     #score-container,
     #timer-container {
         font-size: 20px;
-
+        font-weight: bold;
     }
 }
 
-
-
-
-
-@media(max-width:480px) {
+@media (max-width: 480px) {
     .nav h1 {
         float: none;
         text-align: center;
@@ -255,10 +210,9 @@ body {
     nav li {
         font-size: 1rem;
         padding: 0 20px 0 20px;
+    }
 
-        .place {
-            grid-template-columns: 1fr;
-
-        }
+    .place {
+        grid-template-columns: 1fr;
     }
 }
