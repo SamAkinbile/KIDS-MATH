@@ -32,11 +32,11 @@ body {
 
 .mathology a {
     text-decoration: none;
-    color: gold;
+    color: #000000;
 }
 
 .square a {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 
@@ -112,7 +112,7 @@ body {
 }
 
 #fig3 {
-    color: gold;
+    color: #696969;
 }
 
 #fig4 {
