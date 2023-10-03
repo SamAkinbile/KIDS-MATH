@@ -69,7 +69,7 @@ body {
 
 .pick h1 {
     cursor: pointer;
-    color: whitesmoke;
+    color: #303030;
     border-radius: 7px;
     margin-top: 10px;
     text-align: center;
@@ -77,30 +77,30 @@ body {
 }
 
 #right1 {
-    background-color: goldenrod;
+    background-color: #DAA520;
     transition: 1s;
 }
 
 #right1:hover {
-    color: black;
+    color: bisque;
 }
 
 #right2 {
-    background-color: goldenrod;
+    background-color: #DAA520;
     transition: 1s;
 }
 
 #right2:hover {
-    color: black;
+    color: bisque;
 }
 
 #right3 {
-    background-color: goldenrod;
+    background-color: #DAA520;
     transition: 1s;
 }
 
 #right3:hover {
-    color: black;
+    color: bisque;
 }
 
 #fig1 {
