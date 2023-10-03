@@ -6,7 +6,7 @@ var right3 = document.getElementById("right3");
 var audio = document.getElementById("myAudio");
 var answer = 0;
 var score = 0;
-var timeLeft = 100;
+var timeLeft = 60;
 var timerId;
 
 function generate_logic() {
@@ -59,7 +59,7 @@ function updateTime() {
 
 generate_logic();
 
-timerId = setInterval(updateTime, 100);
+timerId = setInterval(updateTime, 1000);
 
 right1.addEventListener("click", function () {
     if (right1.innerHTML == answer) {

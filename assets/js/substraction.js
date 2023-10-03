@@ -90,6 +90,20 @@ function startGame() {
     }, 1000);
 }
 
+function updateTime() {
+    timeLeft--;
+    document.getElementById("timer").innerHTML = timeLeft;
+
+    if (timeLeft === 0) {
+        clearInterval(timerId);
+        alert("Time's up! Your final score is " + score + ".");
+        location.reload();
+    }
+}
+
+generate_logic();
+
+
 right1.addEventListener("click", function () {
     if (right1.textContent == answer) {
         score++;

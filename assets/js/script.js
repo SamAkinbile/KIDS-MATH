@@ -9,7 +9,7 @@ var timerDisplay = document.getElementById("timer");
 
 var answer = 0;
 var score = 0;
-var timeLeft = 100;
+var timeLeft = 60;
 var timer;
 
 function generate_logic() {
@@ -47,10 +47,17 @@ function generate_logic() {
     right3.textContent = allAnswers[2];
 }
 
+function updateTime() {
+    timeLeft--;
+    document.getElementById("timer").innerHTML = timeLeft;
 
-
-
-
+    if (timeLeft === 0) {
+        clearInterval(timer);
+        var finalScore = score;
+        alert("Time's up! Your final score is " + finalScore + ".");
+        location.reload();
+    }
+}
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -70,21 +77,13 @@ function updateTimer() {
 
 function startGame() {
     score = 0;
-    timeLeft = 100;
+    timeLeft = 60;
     generate_logic();
     updateScore();
     updateTimer();
 
     clearInterval(timer);
-    timer = setInterval(function () {
-        timeLeft--;
-        updateTimer();
-
-        if (timeLeft === 0) {
-            clearInterval(timer);
-            alert("Game over! Your score: " + score);
-        }
-    }, 1000);
+    timer = setInterval(updateTime, 1000);
 }
 
 right1.addEventListener("click", function () {
@@ -116,7 +115,5 @@ right3.addEventListener("click", function () {
         audio.play();
     }
 });
-
-
 
 startGame();
