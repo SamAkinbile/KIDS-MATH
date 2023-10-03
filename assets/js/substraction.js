@@ -47,8 +47,6 @@ function generate_logic() {
     right3.textContent = allAnswers[2];
 }
 
-
-
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -67,7 +65,7 @@ function updateTimer() {
 
 function startGame() {
     score = 0;
-    timeLeft = 100;
+    timeLeft = 60;
     generate_logic();
     updateScore();
     updateTimer();
@@ -79,7 +77,15 @@ function startGame() {
 
         if (timeLeft === 0) {
             clearInterval(timer);
-            alert("Game over! Your score: " + score);
+
+            // Scroll to the top
+            window.scrollTo(0, 0);
+
+            var finalScore = score;
+            alert("Time's up! Your final score is " + finalScore);
+
+            // Reload the page
+            location.reload();
         }
     }, 1000);
 }
@@ -113,5 +119,17 @@ right3.addEventListener("click", function () {
         audio.play();
     }
 });
+
+
+function updateTime() {
+    timeLeft--;
+    document.getElementById("timer").innerHTML = timeLeft;
+
+    if (timeLeft === 0) {
+        clearInterval(timerId);
+        alert("Time's up! Your final score is " + score + ".");
+        location.reload();
+    }
+}
 
 startGame();
