@@ -126,17 +126,18 @@ body {
 #score-container,
 #timer-container {
     margin-top: 5%;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 #current-score {
-    font-size: 60px;
+    font-size: 80px;
+
 }
 
 #timer {
     color: red;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
 }
 
