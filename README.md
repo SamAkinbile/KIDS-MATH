@@ -20,14 +20,14 @@ Math for kids include preschoolers to high school students, parents, teachers, h
 - __Navigation Bar__
 ![Nav Bar](assets/media/nav.jpeg)
 
-- Present on all three pages, the fully responsive navigation bar consists of links to the Logo, Addition, Subtraction, and Multiplication. It maintains uniformity across all pages for effortless navigation.
+- Present on all three pages, the fully responsive navigation bar consists of Addition, Subtraction, and Multiplication. It maintains uniformity across all pages for effortless navigation.
   - This feature enables seamless navigation across all devices, allowing users to move between pages without needing to use the 'back' button.
 
 - __Addition__
 
 ![addition](assets/media/add.jpeg)
   - The Addition section is designed to help kids practice basic math by adding one-digit numbers together. It offers a simple and engaging way for children to enhance their addition skills while timing themselves and tracking their scores.
-!
+
 - __Subtraction__
 
 ![subtraction](assets/media/minus.jpeg)
