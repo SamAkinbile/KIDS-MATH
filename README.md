@@ -24,29 +24,27 @@ Math for kids include preschoolers to high school students, parents, teachers, h
 
 - __Addition__
 
-  - In the 'Club Ethos' section, parents and guardians can discover the advantages of early cycling for their children, promoting their cycling journey and highlighting the broader benefits of cycling as a whole.
+  - The Addition section is designed to help kids practice basic math by adding one-digit numbers together. It offers a simple and engaging way for children to enhance their addition skills while timing themselves and tracking their scores.
+![addition](assets/media/add.jpeg)
+  __Subtraction__
 
-![Club Ethos](readmeimages/clubethos.jpeg)
+- In the Subtraction section, children can sharpen their subtraction skills by subtracting single-digit numbers. This interactive module provides a fun and educational way for kids to measure their performance, track their scores, and improve their math abilities
 
-  __The Footer__
 
-- The footer section contains links to KidBike's relevant social media platforms, designed to open in new tabs for convenient exploration by parents and guardians.
+![subtraction](assets/media/minus.jpeg)
 
-- The footer holds significance for users by motivating them to stay connected through social media channels.
+- __Multiplication__
 
-![Footer](readmeimages/footer.jpeg)
+ - In the Multiplication section, youngsters can enhance their multiplication proficiency by multiplying single-digit numbers. This interactive feature offers an engaging and instructive experience, enabling kids to time their progress, monitor their scores, and enhance their mathematical skills.
 
-- __About__
+![Multiplication](assets/media/times.jpeg)
 
-  This webpage informs parents and guardians about our mission to support children. It presents insights into "who we are," "our vision," and "our approach." Addressing industry competition, we elucidate the reasons for selecting KidBike.
+- __Answer Choice__
+![answer choice](assets/media/answerchoice.jpeg)
 
-![About](readmeimages/about.jpeg)
+  - Answer choices enable children to make selections, helping them pick the right option. An incorrect choice triggers a sound effect, providing feedback in a fun and engaging way.
 
-- __The Sign Up Page__
 
-  - This signup page facilitates parental or guardian sign-up to KidBike, initiating their children's cycling journey within the community. Required details for sign-up include full name, email address, child's gender, and phone number.
-
-![Sign Up](readmeimages/signup.jpeg)
 
 ## Technologies Used
 
@@ -54,16 +52,27 @@ __Github__ - Used for storage of my site and for publishing online.\
 __Codeanywhere__ - The IDE used for editing my site and pushing changes.\
 __HTML5__ - The core of the site was built with HTML version 5.\
 __CSS__ - CSS was used to style the website and define fonts and layout.\
+__JavaScript__-The logic behind adding, subtract, and multiply.\
 __Font Awesome__ - Social Media icons from Font Awesome.
 
 ### Validator Testing
 
 - HTML
-![alt text](readmeimages/tmlvalidator.jpeg)
-![alt text](readmeimages/tmlvalidator.jpeg)
-![alt text](readmeimages/tmlvalidator.jpeg)
+![alt text](assets/media/w3schtml.jpeg)
 
 - No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator](https://validator.w3.org/nu/#textarea)
+  
+
+- HTML
+![alt text](assets/media/w3schtml.jpeg)
+
+- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator](https://validator.w3.org/nu/#textarea)
+  
+- HTML
+![alt text](assets/media/w3schtml.jpeg)
+
+- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator](https://validator.w3.org/nu/#textarea)
+  
 
 -CSS
 
