@@ -1,28 +1,28 @@
-# KidBike: Fostering Early Cycling Adventures
+# KIDSMATH: Math Problem-Solving Prodigy
 ![Alt Text](readmeimages/responsive.jpeg)
 
-## Unveiling Thrilling Beginnings
+## Problem-Solving Skills
 
-The target audience for math education can include preschoolers to high school students, parents, teachers, homeschoolers, online learners, and adults seeking math skills. Tailoring content to their specific needs and interests is essential.
+Math helps children develop critical thinking and problem-solving skills. They learn to analyse situations, identify patterns, and find solutions.
 
 ### Target Audience
 
-Math education can include preschoolers to high school students, parents, teachers, homeschoolers, online learners, and adults seeking math skills. Tailoring content to their specific needs and interests is essential.
+Math for kids include preschoolers to high school students, parents, teachers, homeschoolers, online learners, and adults seeking math skills. Tailoring content to their specific needs and interests is essential.
 
-### Nurturing Independence and Curiosity
+### Logical Reasoning
 
-KidBike isn't just about cycling; it's a journey of empowerment and discovery. Our comprehensive project arms parents with the tools they need to introduce their children to cycling, kickstarting a lifetime of fitness and self-assured exploration.
+ Math encourages logical reasoning and deductive thinking, which are valuable skills in various aspects of life, including decision-making and planning.
 
 
 ### Existing Features
 
 - __Navigation Bar__
 
-- Present on all three pages, the fully responsive navigation bar consists of links to the Logo, Home page, Gallery, and Sign Up page. It maintains uniformity across all pages for effortless navigation.
+- Present on all three pages, the fully responsive navigation bar consists of links to the Logo, Addition, Subtraction, and Multiplication. It maintains uniformity across all pages for effortless navigation.
   - This feature enables seamless navigation across all devices, allowing users to move between pages without needing to use the 'back' button.
-![Nav Bar](readmeimages/nav.jpeg)
+![Nav Bar](assets/media/nav.jpeg)
 
-- __Club Ethos Section__
+- __Addition__
 
   - In the 'Club Ethos' section, parents and guardians can discover the advantages of early cycling for their children, promoting their cycling journey and highlighting the broader benefits of cycling as a whole.
 
