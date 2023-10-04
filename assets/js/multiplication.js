@@ -1,5 +1,6 @@
 /* eslint-env es6 */
 
+/* some of code may contain intruction from the youtube and openai */
 var right1 = document.getElementById("right1");
 var right2 = document.getElementById("right2");
 var right3 = document.getElementById("right3");

@@ -1,5 +1,6 @@
 /* eslint-disable es6 */
 
+/* some of the code may contain intructions from the youtube Tutorial and openai */
 var right1 = document.getElementById("right1");
 var right2 = document.getElementById("right2");
 var right3 = document.getElementById("right3");

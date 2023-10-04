@@ -102,7 +102,7 @@ The live link can be found here - <https://samakinbile.github.io/KIDS-MATH/>
 
 ### Content
 - The idea of this project was brought from Project 1, KidBike[Project 1](https://samakinbile.github.io/KidBik/)
-- Instructions on the structure how to implement this project was taking from a youtube [Specific YouTube Tutorial](https://www.youtube.com/watch?v=Uw9wc5wm_mw&t=855s)
+- Instructions on the structure how to implement this project was taking from a youtube [Specific YouTube Tutorial](https://www.youtube.com/@codefoxx
 - Some intructions and coding are also followed from openai and internet  [Openai](https://openai.com/)
 
 
