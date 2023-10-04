@@ -1,13 +1,12 @@
 /* eslint-disable es6 */
 
-/* some of the code may contain intructions from the youtube Tutorial and openai */
 var right1 = document.getElementById("right1");
 var right2 = document.getElementById("right2");
 var right3 = document.getElementById("right3");
 var audio = document.getElementById("myAudio");
 var currentScore = document.getElementById("current-score");
 var timerDisplay = document.getElementById("timer");
-
+// Some of the code may contain intructions from openai and youtube channel (codefoxx)
 var answer = 0;
 var score = 0;
 var timeLeft = 100;

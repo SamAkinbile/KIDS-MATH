@@ -52,21 +52,25 @@ __Codeanywhere__ - The IDE used for editing my site and pushing changes.\
 __HTML5__ - The core of the site was built with HTML version 5.\
 __CSS__ - CSS was used to style the website and define fonts and layout.\
 __JavaScript__-The logic behind adding, subtract, and multiply.\
-__Font Awesome__ - Social Media icons from Font Awesome.
+
 
 ### Validator Testing
 
 - HTML
-![alt text](assets/media/w3schtml.jpeg)
+![alt text](assets/media/w3schtml.jpeg)- Pass
 
-- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator](https://validator.w3.org/nu/#textarea)
+- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator)](https://validator.w3.org/nu/#textarea)
   
 
 - HTML
-![alt text](assets/media/w3schtml.jpeg)
+![alt text](assets/media/w3schtml.jpeg)-Pass
 
-- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator](https://validator.w3.org/nu/#textarea)
+- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator)](https://validator.w3.org/nu/#textarea)
   
+- HTML
+![alt text](assets/media/w3schtml.jpeg)-Pass
+
+- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator)](https://validator.w3.org/nu/#textarea)
 
 
 -CSS
@@ -79,15 +83,15 @@ __Font Awesome__ - Social Media icons from Font Awesome.
 
 ![alt text](assets/media/jshint.jpeg) - Pass
 
-- No warnings were returned when passing through the official when passing through the official [(Jshint) validator](https://jshint.com/)
+- No warnings were returned when passing through the official validating  [(Jshint) validator](https://jshint.com/)
 
 
 ![alt text](assets/media/jshint.jpeg) - Pass
 
-- No warnings were returned when passing through the official when passing through the official [(Jshint) validator](https://jshint.com/)
+- No warnings were returned when passing through the official validating [(Jshint) validator](https://jshint.com/)
 ![alt text](assets/media/jshint.jpeg) - Pass
 
-- No warnings were returned when passing through the official when passing through the official [(Jshint) validator](https://jshint.com/)
+- No warnings were returned when passing through the official validating  [(Jshint) validator](https://jshint.com/)
 
 ## Deployment
 
@@ -104,7 +108,7 @@ The live link can be found here - <https://samakinbile.github.io/KIDS-MATH/>
 
 ### Content
 - The idea of this project was brought from Project 1, KidBike[Project 1](https://samakinbile.github.io/KidBik/)
-- Instructions on the structure how to implement this project was taking from a youtube [Specific YouTube Tutorial](https://www.youtube.com/@codefoxx
+- Instructions on the structure how to implement this project was taking from a youtube [Specific YouTube Tutorial](https://www.youtube.com/@codefoxx)
 - Some intructions and coding are also followed from openai and internet  [Openai](https://openai.com/)
 
 

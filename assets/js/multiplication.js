@@ -8,7 +8,7 @@ var answer = 0;
 var score = 0;
 var timeLeft = 60;
 var timerId;
-
+// Some of the code may contain intructions from openai and youtube channel (codefoxx)
 function generate_logic() {
     var fig1 = Math.floor(Math.random() * 13);
     var fig3 = Math.floor(Math.random() * 13);

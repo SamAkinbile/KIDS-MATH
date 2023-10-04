@@ -1,4 +1,4 @@
-/* eslint-disable es6 */
+/* eslint-env es6 */
 
 var right1 = document.getElementById("right1");
 var right2 = document.getElementById("right2");
