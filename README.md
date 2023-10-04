@@ -8,7 +8,7 @@ KidsMath helps children develop critical thinking and problem-solving skills. Th
 
 ### Target Audience
 
-Math for kids include preschoolers to high school students, parents, teachers, homeschoolers, online learners, and adults seeking math skills. Tailoring content to their specific needs and interests is essential.
+Math for kids include pre-schoolers to high school students, parents, teachers, homeschoolers, online learners, and adults seeking math skills. Tailoring content to their specific needs and interests is essential.
 
 ### Logical Reasoning
 
@@ -23,7 +23,7 @@ Math encourages logical reasoning and deductive thinking, which are valuable ski
 
   - This feature enables seamless navigation across all devices, allowing users to move between pages without needing to use the 'back' button.
 
-- **Additio Section**
+- **Addition Section**
 
 ![addition](assets/media/add.jpeg)
 
