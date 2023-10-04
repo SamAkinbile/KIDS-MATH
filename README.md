@@ -28,7 +28,7 @@ Math for kids include preschoolers to high school students, parents, teachers, h
 ![addition](assets/media/add.jpeg)
   - The Addition section is designed to help kids practice basic math by adding one-digit numbers together. It offers a simple and engaging way for children to enhance their addition skills while timing themselves and tracking their scores.
 
-- __Subtraction__
+-__Subtraction__
 
 ![subtraction](assets/media/minus.jpeg)
 
@@ -52,7 +52,7 @@ __Github__ - Used for storage of my site and for publishing online.\
 __Codeanywhere__ - The IDE used for editing my site and pushing changes.\
 __HTML5__ - The core of the site was built with HTML version 5.\
 __CSS__ - CSS was used to style the website and define fonts and layout.\
-__JavaScript__-The logic behind adding, subtract, and multiply.\
+__JavaScript__-The logic behind adding, subtract, and multiply.
 
 
 ### Validator Testing
@@ -60,39 +60,38 @@ __JavaScript__-The logic behind adding, subtract, and multiply.\
 - HTML
 ![alt text](assets/media/w3schtml.jpeg)- Pass
 
-- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator)](https://validator.w3.org/nu/#textarea)
+- No errors were returned when passing through the official W3C Validator websites.   [(W3C validator)](https://validator.w3.org/nu/#textarea)
   
 
 - HTML
 ![alt text](assets/media/w3schtml.jpeg)-Pass
 
-- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator)](https://validator.w3.org/nu/#textarea)
+- No errors were returned when passing through the official W3C Validator websites. [(W3C validator)](https://validator.w3.org/nu/#textarea)
   
 - HTML
 ![alt text](assets/media/w3schtml.jpeg)-Pass
 
-- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator)](https://validator.w3.org/nu/#textarea)
-
+- No errors were returned when passing through the official W3C Validator websites. [(W3C validator)](https://validator.w3.org/nu/#textarea)
 
 -CSS
 
 ![alt text](assets/media/cssvalidate.jpeg) - Pass
 
 
-- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+- No errors were returned when passin g through the official W3C CSS Validation [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
 
 ![alt text](assets/media/jshint.jpeg) - Pass
 
-- No warnings were returned when passing through the official validating  [(Jshint) validator](https://jshint.com/)
+- No warnings were returned when passing through the official validating,  ESLint configuration  [(Jshint) validator](https://jshint.com/)
 
 
 ![alt text](assets/media/jshint.jpeg) - Pass
 
-- No warnings were returned when passing through the official validating [(Jshint) validator](https://jshint.com/)
+- No warnings were returned when passing through the official validating,  ESLint configuration [(Jshint) validator](https://jshint.com/)
 ![alt text](assets/media/jshint.jpeg) - Pass
 
-- No warnings were returned when passing through the official validating  [(Jshint) validator](https://jshint.com/)
+- No warnings were returned when passing through the official validating, other than  ESLint configuration  [(Jshint) validator](https://jshint.com/)
 
 ## Deployment
 
@@ -109,10 +108,10 @@ The live link can be found here - <https://samakinbile.github.io/KIDS-MATH/>
 
 ### Content
 - The idea of this project was brought from Project 1, KidBike[Project 1](https://samakinbile.github.io/KidBik/)
-- Instructions on the structure how to implement this project was taking from a youtube [Specific YouTube Tutorial](https://www.youtube.com/@codefoxx)
+- Instructions on how to implement the structure this project was taking from a youtube [Specific YouTube Tutorial](https://www.youtube.com/@codefoxx)
 - Some intructions and coding are also followed from openai and internet  [Openai](https://openai.com/)
 
 
 ### Media
 
-- The sounds effect was taking from internet.
+- The sound effect was taking from internet.
