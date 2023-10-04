@@ -68,19 +68,19 @@ __Font Awesome__ - Social Media icons from Font Awesome.
 
 - No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator](https://validator.w3.org/nu/#textarea)
   
-- HTML
-![alt text](assets/media/w3schtml.jpeg)
 
-- No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official              [(W3C validator](https://validator.w3.org/nu/#textarea)
-  
 
 -CSS
 
-![alt text](readmeimages/css.validate.jpeg) - Pass
-![alt text](readmeimages/css.validate.jpeg) - Pass
-![alt text](readmeimages/css.validate.jpeg) - pass
+![alt text](assets/media/cssvalidate.jpeg) - Pass
+
 
 - No errors were returned when passing through the official [W3C validator](validator.w3.org/nu/?dwere found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+
+![alt text](assets/media/jshint.jpeg) - Pass
+
+- No errors were returned when passing through the official when passing through the official [(Jshint) validator](https://jshint.com/)
+
 
 ## Deployment
 
@@ -91,7 +91,7 @@ I deployed my websites which includes all pages. The site was deployed to GitHub
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://samakinbile.github.io/KidBik/>
+The live link can be found here - <https://samakinbile.github.io/KIDS-MATH/>
 
 ## Credits
 
