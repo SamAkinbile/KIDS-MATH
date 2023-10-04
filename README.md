@@ -1,5 +1,6 @@
 # KIDSMATH: Math Problem-Solving Prodigy
-![Alt Text](assets/media/responsive.jpegpeg)
+
+![Alt Text](assets/media/responsive.jpeg)
 
 ## Problem-Solving Skills
 
