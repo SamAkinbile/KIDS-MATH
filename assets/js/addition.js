@@ -1,6 +1,6 @@
-/* eslint-env es6 */
+/* eslint-disable es6 */
 
-/* some of code may contain intruction from the youtube and openai */
+/* some of the code may contain intructions from the youtube Tutorial and openai */
 var right1 = document.getElementById("right1");
 var right2 = document.getElementById("right2");
 var right3 = document.getElementById("right3");
@@ -10,7 +10,7 @@ var timerDisplay = document.getElementById("timer");
 
 var answer = 0;
 var score = 0;
-var timeLeft = 60;
+var timeLeft = 100;
 var timer;
 
 function generate_logic() {
@@ -37,7 +37,7 @@ function generate_logic() {
 
     do {
         dummyAnswer2 = Math.floor(Math.random() * 13);
-    } while (dummyAnswer2 === answer || dummyAnswer2 === fig1 + fig3 || dummyAnswer2 === dummyAnswer1);
+    } while (dummyAnswer2 === answer || dummyAnswer2 === fig1 - fig3 || dummyAnswer2 === dummyAnswer1);
 
     var allAnswers = [answer, dummyAnswer1, dummyAnswer2];
 
@@ -48,21 +48,9 @@ function generate_logic() {
     right3.textContent = allAnswers[2];
 }
 
-function updateTime() {
-    timeLeft--;
-    document.getElementById("timer").innerHTML = timeLeft;
-
-    if (timeLeft === 0) {
-        clearInterval(timer);
-        var finalScore = score;
-        alert("Time's up! Your final score is " + finalScore + ".");
-        location.reload();
-    }
-}
-
 function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
@@ -84,8 +72,38 @@ function startGame() {
     updateTimer();
 
     clearInterval(timer);
-    timer = setInterval(updateTime, 1000);
+    timer = setInterval(function () {
+        timeLeft--;
+        updateTimer();
+
+        if (timeLeft === 0) {
+            clearInterval(timer);
+
+            // Scroll to the top
+            window.scrollTo(0, 0);
+
+            var finalScore = score;
+            alert("Time's up! Your final score is " + finalScore);
+
+            // Reload the page
+            location.reload();
+        }
+    }, 1000);
 }
+
+function updateTime() {
+    timeLeft--;
+    document.getElementById("timer").innerHTML = timeLeft;
+
+    if (timeLeft === 0) {
+        clearInterval(timerId);
+        alert("Time's up! Your final score is " + score + ".");
+        location.reload();
+    }
+}
+
+generate_logic();
+
 
 right1.addEventListener("click", function () {
     if (right1.textContent == answer) {
@@ -116,5 +134,17 @@ right3.addEventListener("click", function () {
         audio.play();
     }
 });
+
+
+function updateTime() {
+    timeLeft--;
+    document.getElementById("timer").innerHTML = timeLeft;
+
+    if (timeLeft === 0) {
+        clearInterval(timerId);
+        alert("Time's up! Your final score is " + score + ".");
+        location.reload();
+    }
+}
 
 startGame();
