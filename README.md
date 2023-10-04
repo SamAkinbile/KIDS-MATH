@@ -28,7 +28,7 @@ Math for kids include preschoolers to high school students, parents, teachers, h
 ![addition](assets/media/add.jpeg)
   - The Addition section is designed to help kids practice basic math by adding one-digit numbers together. It offers a simple and engaging way for children to enhance their addition skills while timing themselves and tracking their scores.
 
--__Subtraction__
+- __Subtraction__
 
 ![subtraction](assets/media/minus.jpeg)
 
