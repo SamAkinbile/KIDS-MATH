@@ -3,7 +3,7 @@
 
 ## Problem-Solving Skills
 
-Math helps children develop critical thinking and problem-solving skills. They learn to analyse situations, identify patterns, and find solutions.
+KidsMath helps children develop critical thinking and problem-solving skills. They learn to analyse situations, identify patterns, and find solutions.
 
 ### Target Audience
 
@@ -23,22 +23,24 @@ Math for kids include preschoolers to high school students, parents, teachers, h
   - This feature enables seamless navigation across all devices, allowing users to move between pages without needing to use the 'back' button.
 
 - __Addition__
-[addition](assets/media/add.jpeg)
+
+![addition](assets/media/add.jpeg)
   - The Addition section is designed to help kids practice basic math by adding one-digit numbers together. It offers a simple and engaging way for children to enhance their addition skills while timing themselves and tracking their scores.
 !
-  __Subtraction__
+- __Subtraction__
 
 ![subtraction](assets/media/minus.jpeg)
 
-- In the Subtraction section, children can sharpen their subtraction skills by subtracting single-digit numbers. This interactive module provides a fun and educational way for kids to measure their performance, track their scores, and improve their math abilities
+- In the subtraction section, children can sharpen their subtraction skills by subtracting single-digit numbers. This interactive module provides a fun and educational way for kids to measure their performance, track their scores, and improve their math abilities
 
 - __Multiplication__
 
 ![Multiplication](assets/media/times.jpeg)
 
-- In the Multiplication section, youngsters can enhance their multiplication proficiency by multiplying single-digit numbers. This interactive feature offers an engaging and instructive experience, enabling kids to time their progress, monitor their scores, and enhance their mathematical skills.
+- In the multiplication section, youngsters can enhance their multiplication proficiency by multiplying single-digit numbers. This interactive feature offers an engaging and instructive experience, enabling kids to time their progress, monitor their scores, and enhance their mathematical skills.
 
 - __Answer Choice__
+  
 ![answer choice](assets/media/answerchoice.jpeg)
 
 - Answer choices enable children to make selections, helping them pick the right option. An incorrect choice triggers a sound effect, providing feedback in a fun and engaging way.
