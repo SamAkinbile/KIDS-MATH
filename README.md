@@ -1,17 +1,18 @@
 # KidBike: Fostering Early Cycling Adventures
+![Alt Text](readmeimages/responsive.jpeg)
 
 ## Unveiling Thrilling Beginnings
 
-Discover KidBike, igniting a lifelong love for cycling by introducing children to its exhilarating health and adventure. Our structured approach guarantees a solid foundation, nurturing both confidence and independence. Ideal for parents seeking a powerful start for their young cyclists.
+The target audience for math education can include preschoolers to high school students, parents, teachers, homeschoolers, online learners, and adults seeking math skills. Tailoring content to their specific needs and interests is essential.
 
 ### Target Audience
 
-KidBike is for parents who value active childhoods, offering accessible cycling education and exploration. We aid time-strapped parents in providing their children with essential cycling skills for a healthier future.
+Math education can include preschoolers to high school students, parents, teachers, homeschoolers, online learners, and adults seeking math skills. Tailoring content to their specific needs and interests is essential.
 
 ### Nurturing Independence and Curiosity
 
 KidBike isn't just about cycling; it's a journey of empowerment and discovery. Our comprehensive project arms parents with the tools they need to introduce their children to cycling, kickstarting a lifetime of fitness and self-assured exploration.
-![Alt Text](readmeimages/responsive.jpeg)
+
 
 ### Existing Features
 
