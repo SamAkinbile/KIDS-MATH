@@ -1,5 +1,5 @@
 # KIDSMATH: Math Problem-Solving Prodigy
-![Alt Text](readmeimages/responsive.jpeg)
+![Alt Text](assets/js/responsive.jpeg)
 
 ## Problem-Solving Skills
 
@@ -77,8 +77,15 @@ __Font Awesome__ - Social Media icons from Font Awesome.
 
 ![alt text](assets/media/jshint.jpeg) - Pass
 
-- No errors were returned when passing through the official when passing through the official [(Jshint) validator](https://jshint.com/)
+- No warnings were returned when passing through the official when passing through the official [(Jshint) validator](https://jshint.com/)
 
+
+![alt text](assets/media/jshint.jpeg) - Pass
+
+- No warnings were returned when passing through the official when passing through the official [(Jshint) validator](https://jshint.com/)
+![alt text](assets/media/jshint.jpeg) - Pass
+
+- No warnings were returned when passing through the official when passing through the official [(Jshint) validator](https://jshint.com/)
 
 ## Deployment
 
